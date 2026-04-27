@@ -1,0 +1,14 @@
+{
+  "hotelName": "Courtyard Long Beach Holiday Resort",
+  "hotelId": 1049626,
+  "url": "https://www.jollytur.com/courtyard-long-beach-holiday-resort?Rooms=2&StartDate=2026.04.28&EndDate=2026.05.02&OriginId=64118&PackageSearchType=0",
+  "originId": 64118,
+  "packageSearchType": 0,
+  "responses": [
+    {
+      "url": "https://www.jollytur.com/hotel/GetRequestRedirectLinkToHotelSearch?Rooms=2&StartDate=2026.04.28&EndDate=2026.05.02&OriginId=64118&PackageSearchType=0",
+      "status": 403,
+      "textLength": 6589
+    }
+  ]
+}

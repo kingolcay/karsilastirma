@@ -1,0 +1,19 @@
+{
+  "hotelName": "Mimoza Beach Hotel",
+  "hotelId": 1048301,
+  "url": "https://www.jollytur.com/mimoza-beach-hotel?Rooms=2&StartDate=2026.04.28&EndDate=2026.05.02&OriginId=64118&PackageSearchType=0",
+  "originId": 64118,
+  "packageSearchType": 0,
+  "responses": [
+    {
+      "url": "https://www.jollytur.com/hotel/GetRequestRedirectLinkToHotelSearch?Rooms=2&StartDate=2026.04.28&EndDate=2026.05.02&OriginId=64118&PackageSearchType=0",
+      "status": 200,
+      "textLength": 0
+    },
+    {
+      "url": "https://www.jollytur.com/hotel/GetReservationCompletePartial",
+      "status": 200,
+      "textLength": 219982
+    }
+  ]
+}
