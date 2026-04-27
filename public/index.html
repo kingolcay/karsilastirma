@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acente Fiyat Karsilastirma</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Paket Tur Karsilastirma</p>
+      <h1>Ucakli otel paketlerinde en avantajli acenteyi bulun</h1>
+      <p class="lead">
+        Tatilsepeti ve MNG fiyatlarini tek ekranda karsilastirin. Altyapi Puppeteer ile
+        browser taklidi yapabildigi icin daha sonra Jolly gibi dinamik acenteler de eklenebilir.
+      </p>
+    </section>
+
+    <section class="panel">
+      <form id="searchForm" class="form">
+        <label>
+          <span>Giris</span>
+          <input type="date" name="start" required>
+        </label>
+        <label>
+          <span>Cikis</span>
+          <input type="date" name="end" required>
+        </label>
+        <label>
+          <span>Yetiskin</span>
+          <input type="number" name="adult" min="1" value="2" required>
+        </label>
+        <button id="submitButton" type="submit">Karsilastir</button>
+      </form>
+
+      <div id="statusBox" class="status hidden"></div>
+
+      <div id="summaryBox" class="summary hidden"></div>
+
+      <div class="table-wrap">
+        <table id="resultsTable" class="results hidden">
+          <thead>
+            <tr>
+              <th>Otel</th>
+              <th>Tatilsepeti</th>
+              <th>MNG</th>
+              <th>Jolly</th>
+              <th>Avantajli Acenta</th>
+              <th>Fark</th>
+            </tr>
+          </thead>
+          <tbody id="resultsBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
