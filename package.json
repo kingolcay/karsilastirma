@@ -1,0 +1,14 @@
+{
+  "name": "travel-agency-price-compare",
+  "version": "1.0.0",
+  "description": "Web app to compare package prices across travel agencies with Node.js and Puppeteer.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.9.0"
+  }
+}
